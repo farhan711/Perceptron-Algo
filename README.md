@@ -2,7 +2,7 @@
 
 A Perceptron is used to define a hyperplane which divides the input space into two half-spaces and can be used to make binary classification.
 
-![perceptron](https://raw.githubusercontent.com/farhan711/Perceptron-algo/master/Picture/perceptron.png)
+![perceptron](https://raw.githubusercontent.com/farhan711/Perceptron-algo/master/Pictures/perceptron.png)
 
 ##### About the files
 * `perceptron.py` : Python script used to run the algorithm.
@@ -15,13 +15,12 @@ A Perceptron is used to define a hyperplane which divides the input space into t
 # Learning Boolean Functions
 A boolean function is a two-class classification problem- the inputs are binary and the output is 1 if the corresponding function value is true and 0 otherwise.
 
-Functions like AND and OR are linearly separable and are solvable using the perceptron. A perceptron implementing the AND function can be found in the `/res` folder. The OR can also be implemented by [modifying](https://github.com/chaitjo/Perceptron#usage) the `trainingData.txt` file.
 
-![AND](https://raw.githubusercontent.com/farhan711/Perceptron-algo/master/Picture/AND.png)
+![AND](https://raw.githubusercontent.com/farhan711/Perceptron-algo/master/Pictures/AND.png)
 
 Functions like XOR cannot be solved with the simple perceptron because their graphs are not linearly separable. Hence, there is no single line/hyperplane that can divide the input space into two classes. Note that a [multilayer perceptron (MLP)](https://en.wikipedia.org/wiki/Multilayer_perceptron) can be used to solve problems like the XOR.
 
-![XOR](https://raw.githubusercontent.com/farhan711/Perceptron-algo/master/Picture/XOR.png)
+![XOR](https://raw.githubusercontent.com/farhan711/Perceptron-algo/master/Pictures/XOR.png)
 
 # Usage
 Modify the values in `constants.txt`, `trainingData.txt` and `testingData.txt` to your own data.
