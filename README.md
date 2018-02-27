@@ -16,11 +16,11 @@ A Perceptron is used to define a hyperplane which divides the input space into t
 A boolean function is a two-class classification problem- the inputs are binary and the output is 1 if the corresponding function value is true and 0 otherwise.
 
 
-![AND](https://raw.githubusercontent.com/farhan711/Perceptron-algo/master/Pictures/AND.png)
+![AND](https://raw.githubusercontent.com/farhan711/Perceptron-algo/master/Pictures/AND.jpg)
 
 Functions like XOR cannot be solved with the simple perceptron because their graphs are not linearly separable. Hence, there is no single line/hyperplane that can divide the input space into two classes. Note that a [multilayer perceptron (MLP)](https://en.wikipedia.org/wiki/Multilayer_perceptron) can be used to solve problems like the XOR.
 
-![XOR](https://raw.githubusercontent.com/farhan711/Perceptron-algo/master/Pictures/XOR.png)
+![XOR](https://raw.githubusercontent.com/farhan711/Perceptron-algo/master/Pictures/XOR.jpg)
 
 # Usage
 Modify the values in `constants.txt`, `trainingData.txt` and `testingData.txt` to your own data.
